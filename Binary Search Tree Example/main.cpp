@@ -70,6 +70,8 @@ int main()
     delete tree->root->right->right;
     delete tree->root->right;
     delete tree->root;
+    delete tree;
 
     return 0;
 }
+
